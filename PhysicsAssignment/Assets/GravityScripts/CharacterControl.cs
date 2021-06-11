@@ -4,32 +4,29 @@ using UnityEngine;
 
 public class CharacterControl : MonoBehaviour
 {
+    //variables
     public Rigidbody rb;
     public float movespeed;
     private Vector3 moveDir;
-    public float jumpStrength;
-    // Start is called before the first frame update
+
+    
     void Start()
     {
+        // initialization
         rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //inputs for movement
         moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-
-        if (Input.GetKeyDown("space"))
-        {
-
-          
-        }
-            
-    
     }
 
     private void FixedUpdate()
     {
+        //movement usinf Rigidbody.MovePosition
         rb.MovePosition(rb.position + transform.TransformDirection(moveDir) * movespeed * Time.deltaTime);
+
+       
     }
 }
