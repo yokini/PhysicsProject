@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterControl : MonoBehaviour
 {
-    //variables
+    //declaring variables
     public Rigidbody rb;
     public float movespeed;
     private Vector3 moveDir;

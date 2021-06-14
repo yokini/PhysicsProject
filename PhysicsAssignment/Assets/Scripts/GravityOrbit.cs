@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GravityOrbit : MonoBehaviour
 {
-    //variables
+    //declaring variables
     public float Gravity;
 
 

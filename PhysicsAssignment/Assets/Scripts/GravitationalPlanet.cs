@@ -5,8 +5,9 @@ using UnityEngine;
 public class GravitationalPlanet : MonoBehaviour
 {
 
-    //variables
+    //declaring variables
     public Rigidbody rb;
+    
     // G being 6.674 * 10 ^-11 m^3 kg^-1 s^-2
     const float G = 6.67f;
 

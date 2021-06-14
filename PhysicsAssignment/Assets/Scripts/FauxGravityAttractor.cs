@@ -5,7 +5,7 @@ using UnityEngine;
 public class FauxGravityAttractor : MonoBehaviour
 {
 
-    //variables
+    //declaring variables
     public float gravity = -9.8f;
     public void Attract(Transform body, Rigidbody Rb)
     {

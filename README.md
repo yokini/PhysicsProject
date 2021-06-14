@@ -2,6 +2,11 @@
  Physics Assignment
 IFI334.DT Math and Physics for Games
 
+Topics:
+• Gravity
+• Joints
+• Water Simulation
+
 By Yogini Mauree
 14/06/21
 
@@ -12,7 +17,7 @@ This project consists of:
 
 More Instructions within Scenes (UI Texts)
 
-Video Presentation Link:
+Video Presentation Link: https://youtu.be/66RZtLSgt4c
 
 Thank you!
 

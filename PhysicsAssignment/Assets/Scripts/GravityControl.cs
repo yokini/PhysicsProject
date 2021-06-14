@@ -8,7 +8,7 @@ public class GravityControl : MonoBehaviour
     //reference Gravity from GravityOrbit script
     public GravityOrbit Gravity;
 
-    //variables
+    //declaring variables
     private Rigidbody Rb;
    
     void Start()

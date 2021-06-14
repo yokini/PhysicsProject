@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FauxGravityBody : MonoBehaviour
 {
-    //variables
+    //declaring variables
     public Rigidbody rb;
 
     //Reference to the FauxGravityAttractor Script
